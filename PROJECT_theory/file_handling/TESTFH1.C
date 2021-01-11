@@ -1,0 +1,14 @@
+//file structure
+/* not a program ony file type details
+typedef struct
+{
+ short level;
+ unsigned flags;
+ char fd;
+ unsigned char hold;
+ short hsize;
+ unsigned char *buffer;
+ unsigned char curp;//current pointer
+ unsigned istemp;
+ short token;
+}FILE;*/

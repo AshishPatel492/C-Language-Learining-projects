@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+ int i;
+ FILE *fp;
+ char s[]="Hello Student";
+ fp=fopen("fh2.txt","w");
+ if(fp==NULL)
+ {
+  printf("File Not open");
+  exit(1);
+ }
+ for(i=0;i<strlen(s);i++)
+  fputc(s[i],fp);
+  fclose(fp);
+  getch();
+}

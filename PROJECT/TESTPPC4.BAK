@@ -1,0 +1,7 @@
+#define product(a,b) a*b
+int main()
+{
+ clrscr();
+ printf("product of 3 and 4 is:%d",product(3+2,4-6));
+ getch();
+}

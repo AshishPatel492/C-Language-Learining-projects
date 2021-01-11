@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i;
+ FILE *fp;
+ char t[]="Ashish";
+ clrscr();
+ fp=fopen("fh2.txt","w");
+ if(fp==NULL)
+  {
+   printf("File Not Open!");
+   exit(1);
+  }
+  for(i=0;i<=strlen(t);i++)
+   fputc(t[i]);
+  fclose(fp);
+  getch();
+}

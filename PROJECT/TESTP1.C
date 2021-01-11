@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int x=5;
+ clrscr();
+ printf("%d",x);  // print x value asit normal
+ printf("\n%u",&x); // printing x block address
+ printf("\n%d",*&x);//	* is represent x block
+ getch();
+}
